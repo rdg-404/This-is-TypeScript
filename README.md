@@ -10,7 +10,7 @@ const userName = "John Doe"
 
 userName()
 ```
-**Vai apontar erro, porque ``` userName ``` não é uma função!**
+* Vai apontar erro, porque ``` userName ``` não é uma função!
 
 
 ``` typescript
@@ -22,7 +22,7 @@ const user = {
 console.log(user.age)
 ```
 
-**Vai dar ruim, porque ``` age ``` não existe dentro do objeto ``` user ```**
+* Vai dar ruim, porque ``` age ``` não existe dentro do objeto ``` user ```
 
 ``` typescript
 function sum(a: number, b: number){
@@ -32,7 +32,7 @@ function sum(a: number, b: number){
 sum.toLowerCase();
 ```
 
-**Erro porque não da para utilizar ``` toLoweCase() ``` em numeros**
+* Erro porque não da para utilizar ``` toLoweCase() ``` em numeros
 
 <br><br><br><br>
 <h1 align="center">TypeScript x JavaScript</h1>
