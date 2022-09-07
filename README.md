@@ -168,3 +168,18 @@ newState.set(123);
 ```
 
 * Serve para quando duas ou mais variáveis têm os mesmos tipos declarados
+
+<h2>Asserção de tipos</h2>
+
+``` typescript
+  type DefaultUser{
+      id: number;
+      name: string;
+      avatar: string;
+  }
+  
+  
+  let newUser = {} as DefaultUser;
+```
+
+* O novo usuário receberá as propriedades baseadas no usuário padrão, é como se fosse um modelo a ser seguido.
