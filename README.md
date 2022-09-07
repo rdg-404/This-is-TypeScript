@@ -169,7 +169,8 @@ newState.set(123);
 
 * Serve para quando duas ou mais variáveis têm os mesmos tipos declarados
 
-<h2>Asserção de tipos</h2>
+<br><br><br><br>
+<h1 align="center">Asserção de tipos</h1>
 
 ``` typescript
   type DefaultUser{
