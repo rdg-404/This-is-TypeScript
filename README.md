@@ -21,3 +21,13 @@ console.log(user.age)
 ```
 
 **Vai dar ruim, porque ``` age ``` não existe dentro do objeto ``` user ```**
+
+``` typescript
+function sum(a: number, b: number){
+  return a + b;
+}
+
+sum.toLowerCase();
+```
+
+**Erro porque não da para utilizar ``` toLoweCase() ``` em numeros**
