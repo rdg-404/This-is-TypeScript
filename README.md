@@ -152,6 +152,6 @@ newState.set(123);
 ```
 * Utilizando uma letra entre <> ao declarar a função ``` <T> ```, fala que terá o tipo que for definido ao chamar a mesma.
 * Usando extends ``` <T extends string | number> ``` o tipo fica indefinido, mas lembrar de não declarar o tipo ao chamar a função.
-* Atribuindo o sinal de = na declaração da função ````<T extends string | number = number> ```, torna um tipo padrão para a variável.
+* Atribuindo o sinal de = na declaração da função ``` <T extends string | number = number> ```, torna um tipo padrão para a variável.
 
 
