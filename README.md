@@ -50,7 +50,7 @@ function showUser(user: string, age: number){
 showUser('John Doe', 22)
 
 ```
-**Especificar tipagem na variável**
+* Especificar tipagem na variável
 
 
 <h2>JavaScript</h2>
@@ -62,7 +62,7 @@ function showUser(user, age){
 
 showUser('John Doe', 22)
 ```
-**A tipagem não é importante para o JS**
+* A tipagem não é importante para o JS
 
 
 
