@@ -37,7 +37,7 @@ sum.toLowerCase();
 <br><br><br><br>
 <h1 align="center">TypeScript x JavaScript</h1>
 
-<h3>TypeScript escreve o JS de uma maneira mais resumida e compreensivel</h3>
+<h3>TypeScript escreve o JS de uma maneira mais compreensivel</h3>
 
 
 <h2>TypeScript</h2>
