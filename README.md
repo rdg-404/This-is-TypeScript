@@ -3,6 +3,8 @@
 
 <h1>Exemplos</h1>
 
+### Utilizar o [TypeScript Playgorund](https://www.typescriptlang.org/) para testar os códigos.
+
 ``` typescript
 const userName = "John Doe"
 
