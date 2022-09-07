@@ -99,12 +99,13 @@ showUser('John Doe', 22)
   }
 ```
 **Erro! Porque espera um ``` return ``` vazio**
-``` typescript
+``` 
+typescript
   
   function showMessage(message: string): string{
     return message;
   }
- ```
+```
  **Ok! Porque espera o que o ``` return ``` seja uma string**
 
 
