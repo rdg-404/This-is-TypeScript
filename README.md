@@ -111,6 +111,7 @@ showUser('John Doe', 22)
 * Ok! Porque espera o que o ``` return ``` seja uma string
 
 
+<br><br><br><br>
 <h1 align="center">Atribuir vários tipos para a mesma variável (UNION)</h1>
 
 ``` typescript
