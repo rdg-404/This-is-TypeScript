@@ -154,4 +154,17 @@ newState.set(123);
 * Usando extends ``` <T extends string | number> ``` o tipo fica indefinido, mas lembrar de não declarar o tipo ao chamar a função.
 * Atribuindo o sinal de = na declaração da função ``` <T extends string | number = number> ```, torna um tipo padrão para a variável.
 
+<br><br><br><br>
+<h1 align="center">Type</h1>
 
+``` typescript
+  type IdType = string | number;
+  
+  let userId: IdType;
+  let adminId: IdType;
+  
+  
+  adminId = 10;
+```
+
+* Serve para quando duas ou mais variáveis têm os mesmos tipos declarados
