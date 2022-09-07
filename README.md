@@ -111,5 +111,19 @@ showUser('John Doe', 22)
 * Ok! Porque espera o que o ``` return ``` seja uma string
 
 
+<h1 align="center">Atribuir vários tipos para a mesma variável (UNION)</h1>
+
+``` typescript
+  function printUserId(id: number | string){
+    console.log(`O ID do usuário é: ${id}`);
+  }
+  
+  printUserId('101')
+  printUserId(101)
+```
+
+* O typescript aceitaria tanto ``` number ``` como ``` string ```
+
+
 
 
