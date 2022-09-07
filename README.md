@@ -33,3 +33,39 @@ sum.toLowerCase();
 ```
 
 **Erro porque não da para utilizar ``` toLoweCase() ``` em numeros**
+
+<br><br><br><br>
+<h1 align="center">TypeScript x JavaScript</h1>
+
+<h3>TypeScript escreve o JS de uma maneira mais resumida e compreensivel</h3>
+
+
+<h2>TypeScript</h2>
+
+``` typescript
+function showUser(user: string, age: number){
+  console.log(`Olá ${user}. Você tem ${age} anos.)
+}
+
+showUser('John Doe', 22)
+
+```
+**Especificar tipagem na variável**
+
+
+<h2>JavaScript</h2>
+
+``` javascript
+function showUser(user, age){
+  console.log(`Olá ${user}. Você tem ${age} anos.)
+}
+
+showUser('John Doe', 22)
+```
+**A tipagem não é importante para o JS**
+
+
+
+
+
+
