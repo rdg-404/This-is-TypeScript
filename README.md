@@ -86,27 +86,29 @@ showUser('John Doe', 22)
 ```
 
 <h3>Também segue o mesmo padrão para Arrays</h3>
+
 ``` typescript
    let numbers: number[];
    numbers = [1,2,3,4,5]
 ```
 
 <h3>E como é usado em funções?</h3>
+
 ``` typescript
-  
-  function showMessage(message: string): void{
-    return message;
-  }
+    function showMessage(message: string): void{
+      return message;
+    }
 ```
-**Erro! Porque espera um ``` return ``` vazio**
-``` 
-typescript
-  
-  function showMessage(message: string): string{
-    return message;
-  }
+
+* Erro! Porque espera um ``` return ``` vazio
+
+``` typescript
+    function showMessage(message: string): string{
+      return message;
+    }
 ```
- **Ok! Porque espera o que o ``` return ``` seja uma string**
+
+* Ok! Porque espera o que o ``` return ``` seja uma string
 
 
 
