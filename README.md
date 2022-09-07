@@ -1,4 +1,8 @@
-<h1 align="center">TypeScript</h1>
+<div align="center">
+  <img  align="center" src="https://blog.theodo.com/static/ba2166b279b234c4824d1c2fb299ced2/a79d3/ts_logo.png">
+</div>
+
+
 <h3>É uma linguagem de tipagem, ou seja, não deixa tu escrever códigos errados, avisa dos erros logo no desenvolvimento.</h3>
 
 <h1>Exemplos</h1>
