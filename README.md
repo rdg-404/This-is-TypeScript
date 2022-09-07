@@ -65,6 +65,21 @@ showUser('John Doe', 22)
 * A tipagem não é importante para o JS
 
 
+<h1 align="center">Tipos primitivos</h1>
+
+``` typescript
+  let loading: boolean;
+  loading = false;
+  
+  
+  let email: string;
+  email = "johndoe@email.com";
+  
+  
+  let price: number;
+  price = 10.50;
+  price = 20;
+```
 
 
 
