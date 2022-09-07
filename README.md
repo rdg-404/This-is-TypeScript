@@ -81,6 +81,12 @@ showUser('John Doe', 22)
   price = 20;
 ```
 
+* Também segue o mesmo padrão para Arrays
+``` typescript
+   let numbers: number[];
+   numbers = [1,2,3,4,5]
+```
+
 
 
 
