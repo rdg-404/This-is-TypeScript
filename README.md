@@ -1,4 +1,4 @@
-<h1>TypeScript</h1>
+<h1 align="center">TypeScript</h1>
 <h3>É uma linguagem de tipagem, ou seja, não deixa tu escrever códigos errados, avisa dos erros logo no desenvolvimento.</h3>
 
 <h1>Exemplos</h1>
