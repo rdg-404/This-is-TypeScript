@@ -126,5 +126,32 @@ showUser('John Doe', 22)
 * O typescript aceitaria tanto ``` number ``` como ``` string ```
 
 
+<br><br><br><br>
+<h1 align="center">Generics</h1>
+
+
+``` typescript
+  function useState<T extends string | number = number>(){
+    let state: T;
+    
+    function get(){
+      return state;
+    }
+    
+    function set(newValue: T){
+      state = newValue;
+    }
+    
+    return {get, set}
+  }
+  
+let newState = useState<string>();
+newState.get();
+newState.set("John Doe");
+newState.set(123);
+```
+* Utilizando uma letra entre <> ao declarar a função ``` <T> ```, fala que terá o tipo que for definido ao chamar a mesma.
+* Usando extends ``` <T extends string | number> ``` o tipo fica indefinido, mas lembrar de não declarar o tipo ao chamar a função.
+* Atribuindo o sinal de = na declaração da função ````<T extends string | number = number> ```, torna um tipo padrão para a variável.
 
 
