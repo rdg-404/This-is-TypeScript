@@ -201,4 +201,5 @@ newState.set(123);
  
 ```
 * A variável newUser vai possuir todas as propriedades de User
+* Colocar uma ? na frente da propriedade ``` idAdmin? ``` a torna opcional
 
