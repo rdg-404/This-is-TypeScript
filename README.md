@@ -184,3 +184,21 @@ newState.set(123);
 ```
 
 * O novo usuário receberá as propriedades baseadas no usuário padrão, é como se fosse um modelo a ser seguido.
+
+
+
+<br><br><br><br>
+<h1 align="center">Tipagem para objetos</h1>
+
+``` typescript
+  type User = {
+    name: string;
+    email: string;
+    age: number;
+    isAdmin: boolean;
+  }
+  const newUser: User
+ 
+```
+* A variável newUser vai possuir todas as propriedades de User
+
