@@ -203,3 +203,32 @@ newState.set(123);
 * A variável newUser vai possuir todas as propriedades de User
 * Colocar uma ? na frente da propriedade ``` idAdmin? ``` a torna opcional
 
+
+
+<br><br><br><br>
+<h1 align="center">Juntando tipos</h1>
+
+``` typescript
+  type User = {
+    name: string;
+    id: number;
+  }
+  
+  type Char = {
+    nickname: string;
+    level: number;
+  }
+  
+  type PlayerInfo = User & Char;
+  
+  let info: PlayerInfo = {
+    id: 09;
+    name: "John Doe";
+    nickname: "Morgan";
+    level: 999
+  }
+```
+
+* Cria um novo tipo ``` PlayerInfo ``` que conterá tanto ``` User ``` quanto ``` Char ``` usando o &.
+
+
